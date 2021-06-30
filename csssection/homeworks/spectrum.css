@@ -1,0 +1,224 @@
+body{
+    background-color: black;
+}
+
+#headone{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: white;
+}
+
+hr{
+    line-height: 2px;
+}
+
+#first{
+    padding: 16px;
+    width: auto;
+    height: 115px;
+    border: 1px solid;
+}
+
+.one{
+    width: 86px;
+    height: 118px;
+    background-color: grey;
+    float: left;
+    margin-top: 1px;
+    margin-left: 367px;
+}
+
+.two{
+    width: 86px;
+    height: 118px;
+    background-color: lightsteelblue;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.three{
+    width: 86px;
+    height: 118px;
+    background-color: linen;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.four{
+    width: 86px;
+    height: 118px;
+    background-color: darkslateblue;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.five{
+    width: 86px;
+    height: 118px;
+    background-color:burlywood;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+ 
+#second{
+    padding: 16px;
+    width: auto;
+    height: 115px;
+    border: 1px solid;
+}
+
+.six{
+    width: 86px;
+    height: 118px;
+    background-color: chocolate;
+    float: left;
+    margin-top: 1px;
+    margin-left: 270px;
+}
+
+.seven{
+    width: 86px;
+    height: 118px;
+    background-color: aqua;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.eight{
+    width: 86px;
+    height: 118px;
+    background-color: darkkhaki;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.nine{
+    width: 86px;
+    height: 118px;
+    background-color: dodgerblue;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.ten{
+    width: 86px;
+    height: 118px;
+    background-color: teal;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.eleven{
+    width: 86px;
+    height: 118px;
+    background-color: lightcoral;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.tweleve{
+    width: 86px;
+    height: 118px;
+    background-color: gold;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+#third{
+    padding: 16px;
+    width: auto;
+    height: 115px;
+    border: 1px solid;
+}
+
+.thirteen{
+    width: 86px;
+    height: 118px;
+    background-color: rebeccapurple;
+    float: left;
+    margin-top: 1px;
+    margin-left: 174px;
+}
+
+.fourteen{
+    width: 86px;
+    height: 118px;
+    background-color: plum;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.fifteen{
+    width: 86px;
+    height: 118px;
+    background-color: peru;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.sixteen{
+    width: 86px;
+    height: 118px;
+    background-color: violet;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.seventeen{
+    width: 86px;
+    height: 118px;
+    background-color: darkgoldenrod;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.eighteen{
+    width: 86px;
+    height: 118px;
+    background-color: sienna;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.nineteen{
+    width: 86px;
+    height: 118px;
+    background-color: steelblue;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.twenty{
+    width: 86px;
+    height: 118px;
+    background-color: turquoise;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.twenty_one{
+    width: 86px;
+    height: 118px;
+    background-color: yellowgreen;
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+}

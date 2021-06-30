@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .row{
+            width: 100%;
+            min-height: 500px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+        }
+        .col{
+            width: 200px;
+            min-height: 200px;
+        }
+        @media(max-width:650px) {
+            .row{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .col{
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col" style="background-color: yellow;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio commodi at recusandae qui debitis obcaecati cum minima nostrum quae in. Quidem eveniet quaerat blanditiis molestias possimus cum exercitationem dolore optio?
+        </div>
+        <div class="col" style="background-color: crimson;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae aut maiores enim! Modi voluptate vel nam recusandae hic quae assumenda magni aut laudantium voluptatibus tempora, voluptatem odit consequuntur ratione!</div>
+        <div class="col" style="background-color: darkgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut esse expedita itaque voluptates, inventore iste. Aliquam debitis est ipsa nostrum tempora quae eum, rem fugit quod obcaecati architecto commodi.</div>
+    </div>
+</body>
+</html>

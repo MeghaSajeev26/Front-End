@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>REGISTRATION FORM</h3>
+    <hr>
+
+    <form action="">
+        <!--to get the create account page in one click and display all the tags-->
+        <fieldset>  <!--to enclose everything within a box-->
+            <legend>Registration</legend>  <!--legend tag to display text for the box-->
+            <label for="fname">First Name</label>
+            <!--label tag is used to display the static(non-changing)contents in a form-->
+            <input type="text" id="fname">
+            <!--inputing contents--"text" is to display the textbox-->
+            <!--id= fname to uniquely identify the textbox because there will be 'n' number of textboxes-->
+            <br>
+            <!--line spacing,break line-->
+
+            <label for="lname">Last Name</label>
+            <!--label for attribute is to
+                                              get focus on to the corresponding textbox of that label-->
+            <input type="text" id="lname">
+            <br>
+
+            <label for="email">Email id</label>
+            <input type="email" id="email">
+            <!--here email is the type property-->
+            <br>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone">
+            <br>
+
+            <label for="">Address</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <!--textarea is used to increase the textbox size-->
+            <br>
+
+            <label for="">Select Course</label>
+            <select name="" id="">
+                <!--select tag is used for a dropdown-->
+                <option value="">Django</option>
+                <!--to display many options-->
+                <option value="">Mean Stack</option>
+                <option value="">Big data</option>
+            </select>
+            <br>
+
+            <label for="">Gender</label>
+            <input type="radio" name="gender">
+            <!--radio tag is used get bubble selection option-->
+            <label for="">Male</label>
+            <!--label for the radio input-->
+            <input type="radio" name="gender">
+            <!--name property is given same to 
+                                           avoid selection of both radio buttons at a time-->
+            <label for="">Female</label>
+            <br>
+
+            <label for="">Skills</label>
+            <input type="checkbox">
+            <!--checkbox tag to select diff skills-->
+            <label for="">C</label>
+            <input type="checkbox">
+            <label for="">C++</label>
+            <input type="checkbox">
+            <label for="">Java</label>
+            <br>
+
+            <label for="uname">Username</label>
+            <input type="text" id="uname">
+            <br>
+
+            <label for="">Password</label>
+            <input type="password">
+            <br>
+
+            <input type="submit" value="Submit">
+            <!--button type="submit">Submit</button-->
+        </fieldset>
+    </form>
+</body>
+
+</html>

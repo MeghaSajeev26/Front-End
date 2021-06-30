@@ -1,0 +1,45 @@
+.row{
+    width: 800px;
+    height: 500px;
+    background-color: burlywood;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: flex-end;  evrythng at end */
+    
+    justify-content: space-around; 
+    /* to get space in btween */
+    
+    /* justify-content: space-evenly; */
+    /* to get equal space */
+    
+    /* align-items: flex-end; */
+    /* horizontally align everthg at end */
+
+    /* align-items: center; */
+    /* align evrythng at centre */
+}
+
+.col{
+    width: 180px;
+    height: 180px;
+}
+
+.col-1{
+    background-color: brown;
+}
+
+.col-2{
+    background-color: darkblue;
+    /* position: absolute;
+    top: 0;
+    left: 202px; */
+}
+
+.col-3{
+    background-color:darkorchid;
+    /* position: absolute;
+    top: 0;
+    left: 402px; */
+    /* flex: 1; */
+    /* to fill the remaining spce or to increase width */
+}

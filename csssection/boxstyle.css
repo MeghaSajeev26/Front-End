@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+.top{
+    background-color: cadetblue;
+    margin-left: 340px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    background-color: coral;
+    margin-top: 134px;
+    margin-left: 340px;
+}

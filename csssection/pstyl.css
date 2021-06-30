@@ -1,0 +1,63 @@
+body{
+    height: 1000px; 
+}
+/* to get scroll bar */
+
+div{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.parent{
+    width: 80%;
+    height: 102px;
+    background-color:cyan;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    margin-top: 20px;
+}
+
+.first{
+    background-color:darkgreen ;
+    position: absolute;
+    /* top: 20%;  */
+    /* left: 20%; */
+    /* right: 50%; */
+    /* bottom: 0; */
+    /* left , right , top , bottom 
+    left: 100%; */
+}
+
+.second{
+    background-color: darksalmon;
+    position: absolute;
+    left: 221px;
+    top: 0;
+}
+
+.third{
+    background-color:rgb(66, 18, 105) ;
+    position: absolute;
+    top: 0;
+    left: 440px;
+}
+
+.fourth{
+    background-color:rgb(95, 187, 8) ;
+    position: absolute;
+    top: 0;
+    left: 660px;
+}
+
+.fxd{
+    position: fixed;
+    background-color: bisque;
+}
+
+.stky{
+    position: sticky;
+    background-color: blue;
+    top: 0px;
+}
